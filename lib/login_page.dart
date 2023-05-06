@@ -13,7 +13,9 @@ class LoginPage extends StatelessWidget {
           height: 200,
           child: IconButton(
             icon: Image.asset('assets/kakao_login_medium_narrow.png'),
-            onPressed: () {},
+            onPressed: () {
+
+            },
           ),
         ),
       ),
