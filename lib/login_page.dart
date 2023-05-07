@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kakao_aouth_test/kakao_aouth.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -14,7 +15,7 @@ class LoginPage extends StatelessWidget {
           child: IconButton(
             icon: Image.asset('assets/kakao_login_medium_narrow.png'),
             onPressed: () {
-
+              KakaoAouth().kakaoLogin();
             },
           ),
         ),
